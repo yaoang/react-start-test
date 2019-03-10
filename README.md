@@ -5,6 +5,8 @@ This application is a simple user interface for viewing a very large set of data
 1. Using Redux to manage the states
 2. Get Large set of data asynchronous
 
+![WebSite Capture](webpage.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
