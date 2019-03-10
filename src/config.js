@@ -40,7 +40,7 @@ export const DEFAULT_DATAREDUCER = {
   searchingValues: {},
 }
 
-function getRandomData(rows) {
+export function getRandomData(rows) {
   var randomData = []
   for (var i = 0; i < rows; i++) {
     randomData.push({

@@ -100,7 +100,7 @@ class DataTable extends Component {
     const searchingValues = {}
     val = val.toUpperCase()
     searchingValues[column] = val
-    console.log(searchingValues)
+    // console.log(searchingValues)
     this.searchDatas(column, val)
     this.setState({
       currentPageIndex: 1,
@@ -117,7 +117,7 @@ class DataTable extends Component {
       filterDatas = filter(data, item=>{
         return startsWith(item[column], val)
       })
-      console.log(filterDatas.length)
+      // console.log(filterDatas.length)
     }
     
     this.setState({
@@ -134,7 +134,7 @@ class DataTable extends Component {
         currentDatas.push(filterDatas[index])
       }
     }
-    console.log(startIndex)
+    // console.log(startIndex)
     this.setState({
       currentDatas,
     })
