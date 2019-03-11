@@ -1,9 +1,13 @@
 ### Task: 
 
-This application is a simple user interface for viewing a very large set of data with an arbitrary number of columns.
+This application is a simple user interface for operating a very large set of data with an arbitrary number of columns.
 
 1. Using Redux to manage the states
 2. Get Large set of data asynchronous
+3. Change index.js to get datas before render App
+4. Add config.js to init datas
+5. Get part of datas from Large set of data, for e.x. 500 rows, can change this number on page
+6. Every Page get 10 rows
 
 ![WebSite Capture](webpage.png)
 
