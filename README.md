@@ -8,6 +8,7 @@ This application is a simple user interface for operating a very large set of da
 4. Add config.js to init datas
 5. Get part of datas from Large set of data, for e.x. 500 rows, can change this number on page
 6. Every Page get 10 rows
+7. Search data from adding filter condition
 
 ![WebSite Capture](webpage.png)
 
